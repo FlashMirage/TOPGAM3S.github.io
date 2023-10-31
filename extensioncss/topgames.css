@@ -1,0 +1,349 @@
+/* Background */
+
+body    {
+
+    background-image:url(space.gif);
+
+}
+
+.title  {
+
+    padding-left: 500px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+
+/* Buttons */
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float:left;
+}
+
+.button1    {
+
+    background-color: rgb(0, 0, 53);
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+
+}
+
+.button1:hover  {
+
+    background-color: rgba(255, 255, 255, 0.514);
+    color: black;
+    border-radius: 12px;
+
+}
+
+
+
+.button2    {
+
+    background-color: rgb(0, 0, 53);
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+
+}
+
+.button2:hover  {
+
+    background-color: rgba(255, 255, 255, 0.514);
+    color: black;
+    border-radius: 12px;
+    
+}
+
+.subscribe img {
+
+    
+    padding-top: 3px;
+    width: 185px;
+    
+}
+
+
+
+/* Overflow */
+
+#options    {
+    
+    .kitten {
+        
+        
+        color: white; /* White text */
+        padding: 10px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        width: 10%; /* Set a width if needed */
+        display: inline-block; /* Make the buttons appear below each other */
+        
+      }
+
+      .kitten1    {
+
+        background-color: rgb(0, 0, 53);
+        color: white;
+        border: 2px solid white;
+        border-radius: 12px;
+    
+    }
+    
+    .kitten1:hover  {
+    
+        background-color: rgba(255, 255, 255, 0.514);
+        color: black;
+        border-radius: 12px;
+    
+    }
+
+    .kitten2    {
+
+        background-color: rgb(0, 0, 53);
+        color: white;
+        border: 2px solid white;
+        border-radius: 12px;
+    
+    }
+    
+    .kitten2:hover  {
+    
+        background-color: rgba(255, 255, 255, 0.514);
+        color: black;
+        border-radius: 12px;
+    
+    }
+
+    .kitten3    {
+
+        background-color: rgb(0, 0, 53);
+        color: white;
+        border: 2px solid white;
+        border-radius: 12px;
+    
+    }
+    
+    .kitten3:hover  {
+    
+        background-color: rgba(255, 255, 255, 0.514);
+        color: black;
+        border-radius: 12px;
+    
+    }
+
+    .kitten4    {
+
+        background-color: rgb(0, 0, 53);
+        color: white;
+        border: 2px solid white;
+        border-radius: 12px;
+    
+    }
+    
+    .kitten4:hover  {
+    
+        background-color: rgba(255, 255, 255, 0.514);
+        color: black;
+        border-radius: 12px;
+    
+    }
+
+    .kitten5    {
+
+        background-color: rgb(0, 0, 53);
+        color: white;
+        border: 2px solid white;
+        border-radius: 12px;
+    
+    }
+    
+    .kitten5:hover  {
+    
+        background-color: rgba(255, 255, 255, 0.514);
+        color: black;
+        border-radius: 12px;
+    
+    }
+
+    .kitten6    {
+
+        background-color: rgb(0, 0, 53);
+        color: white;
+        border: 2px solid white;
+        border-radius: 12px;
+    
+    }
+    
+    .kitten6:hover  {
+    
+        background-color: rgba(255, 255, 255, 0.514);
+        color: black;
+        border-radius: 12px;
+    
+    }
+
+    .kitten7    {
+
+        background-color: rgb(0, 0, 53);
+        color: white;
+        border: 2px solid white;
+        border-radius: 12px;
+    
+    }
+    
+    .kitten7:hover  {
+    
+        background-color: rgba(255, 255, 255, 0.514);
+        color: black;
+        border-radius: 12px;
+    
+    }
+
+    .kitten8    {
+
+        background-color: rgb(0, 0, 53);
+        color: white;
+        border: 2px solid white;
+        border-radius: 12px;
+    
+    }
+    
+    .kitten8:hover  {
+    
+        background-color: rgba(255, 255, 255, 0.514);
+        color: black;
+        border-radius: 12px;
+    
+    }
+
+
+}
+
+
+
+/* Scroll Behavior */
+
+html    {
+
+    scroll-behavior: smooth;
+
+}
+
+/*Slide Show*/
+
+
+.image-banner   {
+    max-width: 1000px;
+    padding-right: 30px;
+    float: right;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    }
+    
+    .image-banner img   {
+    
+    max-width: 1000px;
+    border-radius: 10%;    
+
+    }
+    
+    .cycle-slideshow   {
+    
+    margin-bottom: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    
+    }
+    
+    .slide {
+    
+    width: 70%;
+    position: relative;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    
+    }
+    
+    .slide-text    {
+    
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(255, 255, 255, 0);
+    color: black;
+    width: 100%;
+    padding: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+    .slide-text h3 {
+        margin: 0;
+        color: rgba(220, 20, 60, 0);
+    }
+    
+    .slide-text p {
+    
+        color: rgba(106, 61, 6, 0);
+    }
+    
+    /* Functions of the Prev and Next slides*/
+    
+    .cycle-prev, .cycle-next    {
+    
+    position:absolute;
+    width: 20%;
+    top: 30%;
+    background-color: rgba(53, 53, 53, 0);
+    color: rgba(255, 248, 220, 0);
+    padding: 1px 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 130%;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity .5s;
+    }
+    
+    .cycle-next {
+        right:0;
+    }
+    
+    .cycle-slideshow:hover .cycle-prev,
+    .cycle-slideshow:hover  .cycle-next {
+        opacity: 0;
+    }
+
+    /*InfoGuide*/
+
+    .infoguide  {
+
+        background-color: rgba(128, 128, 128, 0.425);
+       
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        margin: 4px 2px;
+        float:left;
+        position: none;
+        border-radius: 25%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        
+    }

@@ -1,0 +1,254 @@
+
+h1 {
+  color: crimson;
+  text-align: center;
+}
+h2 {
+    color:crimson;
+}
+
+/* Title */
+
+
+/* very top paragraph */
+header h1   {
+
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight:bold ;
+    font-size: 165%;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 2px 10px 1px gray;
+
+}
+
+header p    {
+
+    font-size: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    color: brown;
+
+}
+
+header p a {
+
+text-decoration: none;
+
+}
+
+.p1 p {
+
+    margin-top: 10px;
+    text-indent: 25px;
+    color:gray;
+
+}
+/*end of the very top paragraph designing*/
+
+
+
+
+body {
+
+    background-color:darkred;
+
+}
+
+.container  {
+   
+    background-color: wheat;
+    max-width: 940px;
+    margin-left:auto;
+    margin-right:auto;
+  background-image: 
+  padding-left : 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.content-area   {
+
+
+ 
+    margin: 50px;
+
+    border-bottom: solid 1px burlywood;
+}
+
+.main   {
+
+    width: 70%;
+    float: left;
+     
+  border-top: solid 2px burlywood;
+
+}
+
+.support    {
+background-color:rgba(222, 184, 135, 0.655);
+    width: 30%;
+    float: right;
+   
+}
+ 
+.fix {
+
+    clear: both;
+
+}
+/*Other Utilities*/
+.footernav {
+ 
+    padding-right:50px;
+    padding-left:50px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+
+/*Ingredients*/
+.supcont {
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+/* Nav menu */
+
+.headernav li {
+
+list-style: none;
+
+float: left;
+
+
+}
+
+.headernav ul{
+ margin:0;
+ padding:0;
+}
+
+.headernav{
+ margin-top: 20px;
+
+}
+
+.headernav a  {
+
+text-decoration: none;
+color:crimson;
+padding: 10px 20px;
+border: 3px solid rgba(222, 184, 135, 0.692);
+display: block;
+border-bottom: none;
+}
+
+.headernav a:hover {
+
+    background-color: rgba(220, 20, 60, 0.264);
+
+}
+
+/* Image Banner */
+
+.Sandvich   {
+
+position: relative;
+
+}
+.Sandvich img {
+display:block;
+}
+
+
+
+.banner {
+
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.633);
+}
+
+.banner p {
+
+color:red;
+}
+
+img {
+
+max-width: 100%;
+height: auto;
+  
+}
+
+/* Table */
+
+table {
+border-spacing: 0;
+border-collapse: collapse;
+width: 100%;
+}
+
+table th    {
+
+    text-align: left;
+background-color: rgba(220, 20, 60, 0.701);
+color: rgb(155, 12, 40);
+text-shadow: 1px 1px 0 burlywood
+
+}
+
+table th, table td  {
+
+border: 1px solid rgb(147, 12, 39);
+padding: 10px;
+
+}
+
+table tbody tr:nth-child(even) td{
+
+background-color: rgba(195, 139, 66, 0.779);
+
+}
+
+/* Form Styles */
+
+input[type="email"], input[type="password"] {
+
+width: 100%;
+display:block;
+box-sizing: border-box;
+padding: 0 10px;
+height: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 100%;
+margin-bottom: 20px;
+border: 1px solid rgba(167, 113, 43, 0.881)
+}
+
+form{
+
+background-color: burlywood;
+padding: 30px 40px;
+}
+
+.hidden-label   {
+
+position:absolute;
+height: 0;
+width: 0;
+overflow: hidden;
+visibility: hidden;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus  {
+
+
+border:1px solid rgb(173, 120, 52);
+background-color: rgb(238, 179, 103);
+}

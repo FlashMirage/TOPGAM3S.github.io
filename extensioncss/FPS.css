@@ -1,0 +1,46 @@
+body    {
+
+    background-image: url(spacegalaxy.gif);
+
+}
+
+
+/*Navivagtion*/
+
+
+.arrowright img   {
+
+    width: 150px;
+    padding-left: 1750px;
+    border-bottom: 2px solid white;
+}
+
+.Home img {
+    width: 100px;
+    
+}
+
+/*Picture*/
+
+.game img  {
+
+    max-width: 1000px;
+    border-radius: 10%;
+    position: center;
+}
+
+
+/*Right Pararaph*/
+.support{
+
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+    margin: 20px 30px;
+
+
+}

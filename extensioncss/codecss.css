@@ -1,0 +1,78 @@
+
+
+h1 {
+
+    color:goldenrod;
+    text-align: center;
+}
+
+h2  {
+
+color: brown;
+}
+#Article2 {
+
+    color:blue;
+}
+
+
+header h3 {text-align: center;}
+#color {
+
+    color:dodgerblue;
+}
+
+body {
+
+    background-color: rgb(150, 150, 196);
+  
+}
+
+aside {
+
+    color:darkslateblue;
+}
+
+article header footer {
+
+    color:gray;
+}
+
+ul li {
+    color:forestgreen;
+}
+
+footer p {
+
+color:darkgreen;
+
+
+}
+
+.content-area {
+    border-style:solid;
+border: top 1px black;
+border-style: dashed;
+border-bottom: black;
+}
+
+.main {
+width: 70%;
+    float:left;
+}
+
+.container {
+max-width: 940px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.support {
+    width: 30%;
+    float:right;
+}
+
+.support2   {
+margin-bottom: auto;
+   
+}
